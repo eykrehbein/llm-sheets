@@ -1,4 +1,4 @@
-# LLMSheet
+# LLMSheets
 
 > A spreadsheet that fills itself.
 

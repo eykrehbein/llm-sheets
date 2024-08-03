@@ -66,8 +66,6 @@ export default function SheetPage() {
             })
         }
 
-        console.log(`renderedColumns`, columns)
-
         return columns
     }, [storedColumns])
 
@@ -82,8 +80,6 @@ export default function SheetPage() {
         // placeholder schema. instead, enter our SheetColumn schema
         schema: z.object({}),
     })
-
-    console.log({ object })
 
     const [data, setData] = useState([
         {

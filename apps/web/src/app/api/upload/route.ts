@@ -54,7 +54,6 @@ export async function POST(request: NextRequest) {
     try {
         await writeFile(filePath, buffer)
         await runPythonScript(path.join(process.cwd(), 'scripts', 'convert.py'), [filePath])
-        console.log(`File saved to ${filePath}`)
         return NextResponse.json({ message: 'File uploaded successfully' })
     } catch (error) {
         console.error('Error saving file:', error)
