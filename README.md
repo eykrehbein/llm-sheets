@@ -2,6 +2,8 @@
 
 > A spreadsheet that fills itself.
 
+![](./docs/demo.gif)
+
 
 ## WIP
 
